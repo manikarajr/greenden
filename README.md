@@ -1,2 +1,11 @@
-# greenden
-Greenden is a sustainable gardening project focused on promoting eco-friendly practices and green living through community-driven plant cultivation and education.
+# Greenden 🌿
+
+Greenden is a simple, eco-friendly website promoting sustainable gardening and green living. This project is built using **HTML** and **pure Tailwind CSS v2.2.19**—no JavaScript or frameworks involved.
+
+## 🔧 Tech Stack
+
+- **HTML5**
+- **Tailwind CSS v2.2.19** (CDN)
+
+
+
