@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- tailwindcss cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar-->
+
+    <nav class="bg-green-100 p-4 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-dark text-2xl font-bold">Greenden</h1>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="flex space-x-4 mt-2 hidden md:flex">
+                <li><a href="./index.html" class="text-dark hover:text-green-500">Home</a></li>
+                <li><a href="./product.html" class="text-dark hover:text-green-500">Products</a></li>
+                <li><a href="#" class="text-dark hover:text-green-500">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- search section -->
+    <section class="bg-white p-4 md:py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-dark">Search Products</h2>
+            <form class="mt-4">
+                <input type="text" placeholder="Search..." class="border border-gray-300 p-2 rounded w-full md:w-1/2">
+                <button type="submit" class="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition duration-300">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-green-100 p-4 md:py-6">
+        <div class="text-center">
+            <p class="text-gray-600">© 2023 Greenden. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-dark hover:text-green-500 mx-2">Privacy Policy</a>
+                <a href="#" class="text-dark hover:text-green-500 mx-2">Terms of Service</a>
+            </div>
+        </div>
+</body>
+
+</html>

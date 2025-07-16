@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!-- tailwindcss cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar-->
+
+    <nav class="bg-green-100 p-4 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-dark text-2xl font-bold">Greenden</h1>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="flex space-x-4 mt-2 hidden md:flex">
+                <li><a href="./index.html" class="text-dark hover:text-green-500">Home</a></li>
+                <li><a href="./product.html" class="text-dark hover:text-green-500">Products</a></li>
+                <li><a href="#" class="text-dark hover:text-green-500">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+
+    <header class="bg-green-100 p-4 md:py-12 flex  justify-center items-center">
+        <div>
+            <h2 class="text-4xl font-bold text-dark">Welcome to Greenden</h2>
+            <p class="mt-4 text-lg text-gray-700">Your one-stop solution for all things green and sustainable.</p>
+            <div>
+                <button
+                    class="mt-6 px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition duration-300">
+                    Shop Now
+                </button>
+                <button
+                    class="mt-6 ml-4 px-6 py-2 bg-white text-green-500 border border-green-500 rounded hover:bg-green-100 transition duration-300">
+                    Watch Video
+                </button>
+            </div>
+            <p class="mt-4 text-lg text-gray-700">Join us in making the world a greener place.</p>
+        </div>
+        <div class="hidden md:block p-4">
+            <img src="./image/header-image.jpg" alt="Greenden Image" class="w-80 rounded-lg shadow-lg">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="bg-white p-4 md:py-12">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold text-dark">About Us</h2>
+            <p class="mt-4 text-lg text-gray-700">At Greenden, we are committed to promoting sustainable living and
+                eco-friendly practices.</p>
+
+            <div>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-green-100 p-6 rounded-lg  border border-green-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="w-20 inline">
+                            <path
+                                d="m5.433 13.917 1.262-3.155A4 4 0 0 1 7.58 9.42l6.92-6.918a2.121 2.121 0 0 1 3 3l-6.92 6.918c-.383.383-.84.685-1.343.886l-3.154 1.262a.5.5 0 0 1-.65-.65Z" />
+                            <path
+                                d="M3.5 5.75c0-.69.56-1.25 1.25-1.25H10A.75.75 0 0 0 10 3H4.75A2.75 2.75 0 0 0 2 5.75v9.5A2.75 2.75 0 0 0 4.75 18h9.5A2.75 2.75 0 0 0 17 15.25V10a.75.75 0 0 0-1.5 0v5.25c0 .69-.56 1.25-1.25 1.25h-9.5c-.69 0-1.25-.56-1.25-1.25v-9.5Z" />
+                        </svg>
+
+                        <h3 class="text-xl font-semibold text-dark">Our Mission</h3>
+                        <p class="mt-2 text-gray-600">To inspire and empower individuals to lead a sustainable
+                            lifestyle.</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg border border-green-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="w-20 inline">
+                            <path fill-rule="evenodd"
+                                d="M10 4.5c1.215 0 2.417.055 3.604.162a.68.68 0 0 1 .615.597c.124 1.038.208 2.088.25 3.15l-1.689-1.69a.75.75 0 0 0-1.06 1.061l2.999 3a.75.75 0 0 0 1.06 0l3.001-3a.75.75 0 1 0-1.06-1.06l-1.748 1.747a41.31 41.31 0 0 0-.264-3.386 2.18 2.18 0 0 0-1.97-1.913 41.512 41.512 0 0 0-7.477 0 2.18 2.18 0 0 0-1.969 1.913 41.16 41.16 0 0 0-.16 1.61.75.75 0 1 0 1.495.12c.041-.52.093-1.038.154-1.552a.68.68 0 0 1 .615-.597A40.012 40.012 0 0 1 10 4.5ZM5.281 9.22a.75.75 0 0 0-1.06 0l-3.001 3a.75.75 0 1 0 1.06 1.06l1.748-1.747c.042 1.141.13 2.27.264 3.386a2.18 2.18 0 0 0 1.97 1.913 41.533 41.533 0 0 0 7.477 0 2.18 2.18 0 0 0 1.969-1.913c.064-.534.117-1.071.16-1.61a.75.75 0 1 0-1.495-.12c-.041.52-.093 1.037-.154 1.552a.68.68 0 0 1-.615.597 40.013 40.013 0 0 1-7.208 0 .68.68 0 0 1-.615-.597 39.785 39.785 0 0 1-.25-3.15l1.689 1.69a.75.75 0 0 0 1.06-1.061l-2.999-3Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <h3 class="text-xl font-semibold text-dark">Our Vision</h3>
+                        <p class="mt-2 text-gray-600">A world where sustainability is a way of life.</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg border border-green-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="w-20 inline">
+                            <path fill-rule="evenodd"
+                                d="m7.171 4.146 1.947 2.466a3.514 3.514 0 0 1 1.764 0l1.947-2.466a6.52 6.52 0 0 0-5.658 0Zm8.683 3.025-2.466 1.947c.15.578.15 1.186 0 1.764l2.466 1.947a6.52 6.52 0 0 0 0-5.658Zm-3.025 8.683-1.947-2.466c-.578.15-1.186.15-1.764 0l-1.947 2.466a6.52 6.52 0 0 0 5.658 0ZM4.146 12.83l2.466-1.947a3.514 3.514 0 0 1 0-1.764L4.146 7.171a6.52 6.52 0 0 0 0 5.658ZM5.63 3.297a8.01 8.01 0 0 1 8.738 0 8.031 8.031 0 0 1 2.334 2.334 8.01 8.01 0 0 1 0 8.738 8.033 8.033 0 0 1-2.334 2.334 8.01 8.01 0 0 1-8.738 0 8.032 8.032 0 0 1-2.334-2.334 8.01 8.01 0 0 1 0-8.738A8.03 8.03 0 0 1 5.63 3.297Zm5.198 4.882a2.008 2.008 0 0 0-2.243.407 1.994 1.994 0 0 0-.407 2.243 1.993 1.993 0 0 0 .992.992 2.008 2.008 0 0 0 2.243-.407c.176-.175.31-.374.407-.585a2.008 2.008 0 0 0-.407-2.243 1.993 1.993 0 0 0-.585-.407Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <h3 class="text-xl font-semibold text-dark">Our Values</h3>
+                        <p class="mt-2 text-gray-600">Integrity, Innovation, and Community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- best sellers section -->
+    <section class="bg-white p-4 md:py-12">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold text-dark">Best Sellers</h2>
+            <p class="mt-4 text-lg text-gray-700">Explore our top-selling eco-friendly products.</p>
+
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="p-6 rounded-lg border border-green-200">
+                    <img src="./image/bestseller_1.svg" alt="Product 1" class="w-full h-48  rounded mb-4">
+                    <h3 class="text-xl font-semibold text-dark">Eco-Friendly Bag</h3>
+                    <p class="mt-2 text-gray-600">$19.99</p>
+                </div>
+                <div class="p-6 rounded-lg border border-green-200">
+                    <img src="./image/bestseller_2.svg" alt="Product 2" class="w-full h-48  rounded mb-4">
+                    <h3 class="text-xl font-semibold text-dark">Sustainable Water Bottle</h3>
+                    <p class="mt-2 text-gray-600">$15.99</p>
+                </div>
+                <div class="p-6 rounded-lg border border-green-200">
+                    <img src="./image/bestseller_3.svg" alt="Product 3" class="w-full h-48  rounded mb-4">
+                    <h3 class="text-xl font-semibold text-dark">Organic Cotton T-Shirt</h3>
+                    <p class="mt-2 text-gray-600">$24.99</p>
+                </div>
+                <div class="p-6 rounded-lg border border-green-200">
+                    <img src="./image/bestseller_4.svg" alt="Product 4" class="w-full h-48  rounded mb-4">
+                    <h3 class="text-xl font-semibold text-dark">Organic Cotton T-Shirt</h3>
+                    <p class="mt-2 text-gray-600">$24.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- customer reviews section -->
+    <section class="bg-white p-4 md:py-12">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold text-dark">Customer Reviews</h2>
+            <p class="mt-4 text-lg text-gray-700">What our customers are saying about us.</p>
+        </div>
+                <div class="mt-8 grid grid-cols-1 gap-6">
+                <div class="p-6 rounded-lg border border-green-200 bg-green-800">
+                    <p class="mt-2 text-white">"I love my eco-friendly bag! It's stylish and sustainable."</p>
+                    <h4 class="font-semibold text-yellow-300">Jane Doe</h4>
+                </div>
+                <div class="p-6 rounded-lg border border-green-200 bg-green-800">
+                    <p class="mt-2 text-white">"The sustainable water bottle keeps my drinks cold for hours."</p>
+                    <h4 class="font-semibold text-yellow-300">John Smith</h4>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- newsletter section -->
+    <section class="bg-white p-4 md:py-12">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold text-dark">Subscribe to Our Newsletter</h2>
+            <p class="mt-4 text-lg text-gray-700">Stay updated on our latest products and offers.</p>
+
+            <form class="mt-8">
+                <input type="email" placeholder="Enter your email" class="p-2 border border-green-200 rounded w-full md:w-1/2">
+                <button type="submit" class="bg-green-600 text-white p-2 rounded">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-green-100 p-4 md:py-6">
+        <div class="text-center">
+            <p class="text-gray-600">© 2023 Greenden. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-dark hover:text-green-500 mx-2">Privacy Policy</a>
+                <a href="#" class="text-dark hover:text-green-500 mx-2">Terms of Service</a>
+            </div>
+        </div>
+</body>
+
+</html>
